@@ -1,13 +1,11 @@
 
-
-
-	1-) "su" 									
-	2-) "apt install sudo" 						
-	3-) "adduser akoudia sudo"
-	4-) reboot
-	-------------------------------------------------------------------------------------------------------------------------------------------------------------
-	6-) "sudo apt update"						
-	7-) "sudo visudo -f /etc/sudoers.d/blabla"	
+1-) "su" 									
+2-) "apt install sudo" 						
+3-) "adduser akoudia sudo"
+4-) reboot
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+6-) "sudo apt update"						
+7-) "sudo visudo -f /etc/sudoers.d/blabla"	
 		@-) Defaults		passwd_tries=3									
 		@-) Defaults		badpass_message="Ralat"
 		@-) Defaults		logfile="/var/log/sudo/sudolog.tmp"					
@@ -15,42 +13,42 @@
 		@-) Defaults		iolog_dir="/var/log/sudo"						.
 		@-) Defaults		requiretty										
 		@-) Defaults		secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
-	8-) reboot
-	------------------------------------------------------------------------------------------------------------------------------------------------------------
-	9-) "sudo apt install openssh-server"		
-	10-) "sudo nano /etc/ssh/sshd_config"		
+8-) reboot
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+9-) "sudo apt install openssh-server"		
+10-) "sudo nano /etc/ssh/sshd_config"		
 		@-) "#Port 22"  "Port 4242" 
 		@-) "#PermitRootLogin prohibit-password"  "PermitRootLogin no" 
-	11-)reboot
-	------------------------------------------------------------------------------------------------------------------------------------------------------------
-	12-) "sudo service ssh status"				
-	13-) "sudo apt install ufw"					
-	14-) "sudo ufw enable"					
-	15-) "sudo ufw allow 4242"				
-	16-) "sudo ufw status"						
-	17- poweroff
-	-------------------------------------------------------------------------------------------------------------------------------------------------------------
-	-------------------------------------------------------------------------------------------------------------------------------------------------------------
-	18-) "sudo nano /etc/login.defs"			
-		@-) PASS_MAX_DAYS	99999 --> PASS_MAX_DAYS	30 
-		@-) PASS_MIN_DAYS	0 --> PASS_MIN_DAYS	2 
-		@-) PASS_WARN_AGE   7 
-	19-) "sudo apt install libpam-pwquality"	
-	20-) "sudo nano /etc/pam.d/common-password"	
+11-)reboot
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+12-) "sudo service ssh status"				
+13-) "sudo apt install ufw"					
+14-) "sudo ufw enable"					
+15-) "sudo ufw allow 4242"				
+16-) "sudo ufw status"						
+17- poweroff
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+18-) "sudo nano /etc/login.defs"			
+	@-) PASS_MAX_DAYS	99999 --> PASS_MAX_DAYS	30 
+	@-) PASS_MIN_DAYS	0 --> PASS_MIN_DAYS	2 
+	@-) PASS_WARN_AGE   7 
+19-) "sudo apt install libpam-pwquality"	
+20-) "sudo nano /etc/pam.d/common-password"	
 			@-) minlen=10					
 			@-) ucredit=-1 dcredit=-1		
 			@-) maxrepeat=3					
 			@-) reject_username				
 			@-) difok=7						
 			@-) enforce_for_root			
-	password		requisite						pam_pwquality.so retry=3 minlen=10 ucredit=-1 dcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
-	-------------------------------------------------------------------------------------------------------------------------------------------------------------
-	-------------------------------------------------------------------------------------------------------------------------------------------------------------
-	21-) "sudo addgroup user42"					
-	22-) "sudo adduser akoudia user42"	
-	23-) "sudo passwd akoudia"			
-	-------------------------------------------------------------------------------------------------------------------------------------------------------------
-	24-) "sudo crontab -u root -e"
+password		requisite						pam_pwquality.so retry=3 minlen=10 ucredit=-1 dcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+21-) "sudo addgroup user42"					
+22-) "sudo adduser akoudia user42"	
+23-) "sudo passwd akoudia"			
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+24-) "sudo crontab -u root -e"
 	
 
 
