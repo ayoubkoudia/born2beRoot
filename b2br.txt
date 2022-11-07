@@ -5,7 +5,7 @@
 4-) reboot
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 6-) "sudo apt update"						
-7-) "sudo visudo -f /etc/sudoers.d/blabla"	
+7-) "sudo visudo	
 		@-) Defaults		passwd_tries=3									
 		@-) Defaults		badpass_message="Ralat"
 		@-) Defaults		logfile="/var/log/sudo/sudolog.tmp"					
