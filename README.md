@@ -53,6 +53,7 @@ A hard disk can be divided into several partitions. Each partition functions as 
 
 A package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.
 
+
 ![apt v aptitude](https://user-images.githubusercontent.com/93022275/200630852-388284ed-d041-45e0-ac96-3842c0d684d0.png)
 **LVM Structure**
 
