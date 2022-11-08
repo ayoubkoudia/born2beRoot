@@ -4,6 +4,7 @@ Virtual Machines
 What is a VM?---------------------------
 
 A virtual machine (VM) is a virtual environment that works like a computer within a computer. It runs on an isolated partition of its host computer with its own CPU power, memory, operating system (such as Windows, Linux, macOS), and other resources. End users can run applications on VMs and use them as they normally would on their workstations.
+
 <img width="1034" alt="200386352-986a06a4-bfae-4b2f-8100-f8f505c059c5" src="https://user-images.githubusercontent.com/93022275/200650119-dbfbb58b-aa25-4513-abdd-535808010b61.png">
 
 Why VM's--------------------------------
@@ -35,6 +36,22 @@ NB: VM is completely isolated, that's why if something breaks inside the VM it d
 
 Aptitude is vaster in functionality than apt-get and integrates functionalities of apt-get and its other variants including apt-mark and apt-cache.
 While apt-get handles all the package installation, up-gradation, system-upgradation, purging package, resolving dependencies etc., Aptitude handles lot more stuff than apt, including functionalities of apt-mark and apt-cache i.e. searching for a package in list of installed packages, marking a package to be automatically or manually installed, holding a package making it unavailable for up-gradation and so on.”
+
+**Linux distributions:**
+
+A Linux distribution (often abbreviated as distro) is an operating system made from a software collection that is based upon the Linux kernel and, often, a package management system.
+
+**Partitions**
+
+A hard disk can be divided into several partitions. Each partition functions as if it were a separate hard disk. The idea is that if you have one hard disk, and want to have, say, two operating systems on it, you can divide the disk into two partitions. Each operating system uses its partition as it wishes and doesn't touch the other ones. This way the two operating systems can co-exist peacefully on the same hard disk. Without partitions one would have to buy a hard disk for each operating system.
+
+**Linux Directory Structure**
+
+![200386755-b73099e8-e8d8-4b6c-aec1-b14815db0a98](https://user-images.githubusercontent.com/93022275/200652164-a6da2fb5-8f47-4d81-9bb7-84e983349e30.png)
+
+**Package Management System:**
+
+A package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.
 
 ![apt v aptitude](https://user-images.githubusercontent.com/93022275/200630852-388284ed-d041-45e0-ac96-3842c0d684d0.png)
 **LVM Structure**
