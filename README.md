@@ -62,6 +62,7 @@ AppArmor ("Application Armor") is a Linux kernel security module that allows the
 The default firewall configuration tool for Ubuntu is ufw. Developed to ease iptables firewall configuration, ufw provides a user friendly way to create an IPv4 or IPv6 host-based firewall. By default UFW is disabled.
 
 How to implement UFW with SSH
+![200386538-2f128d28-83f8-417c-ab78-924d2a721458](https://user-images.githubusercontent.com/93022275/200650631-5f9caa52-df1c-421b-a9de-cd5e54484e36.png)
 
 
 UFW (Uncomplicated Firewall) is a software application responsible for ensuring that the system administrator can manage iptables in a simple way. Since it is very difficult to work with iptables, UFW provides us with an interface to modify the firewall of our device (netfilter) without compromising security. Once we have UFW installed, we can choose which ports we want to allow connections, and which ports we want to close. This will also be very useful with SSH, greatly improving all security related to communications between devices.
