@@ -1,4 +1,30 @@
 # born2beRoot!
+Virtual Machines
+
+What is a VM?---------------------------
+
+A virtual machine (VM) is a virtual environment that works like a computer within a computer. It runs on an isolated partition of its host computer with its own CPU power, memory, operating system (such as Windows, Linux, macOS), and other resources. End users can run applications on VMs and use them as they normally would on their workstations.
+<img width="1034" alt="200386352-986a06a4-bfae-4b2f-8100-f8f505c059c5" src="https://user-images.githubusercontent.com/93022275/200650119-dbfbb58b-aa25-4513-abdd-535808010b61.png">
+
+Screen Shot 2021-12-05 at 6 46 31 PM
+Why VM's
+
+The main purpose of VMs is to operate multiple operating systems at the same time, from the same piece of hardware. Without virtualization, operating multiple systems — like Windows and Linux — would require two separate physical units.
+
+    No separate hardware needed, so you don't need to buy a new device.
+    You don't engage the main OS.
+
+How a VM works?------------------------
+
+The HyperVisor(the software that creates and runs VMs) takes hardware resources from the host OS and creates virtual CPU, virtual RAM, virtual storage for the virtual machine.
+
+HyperVisor 2 Types:
+
+t1t2
+
+NB: you only can share hardware resources you actually have.
+
+NB: VM is completely isolated, that's why if something breaks inside the VM it doesn't effect on the host machine.
 
 **What is the difference between aptitude and apt?**
 
