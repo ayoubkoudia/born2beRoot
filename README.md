@@ -19,7 +19,8 @@ The HyperVisor(the software that creates and runs VMs) takes hardware resources 
 
 HyperVisor 2 Types:
 
-t1t2
+![200386434-f719906b-77a3-4c34-b04e-e6fe7c3e9a80](https://user-images.githubusercontent.com/93022275/200650487-443b9946-678e-4064-b06d-408544844de4.jpeg)
+
 
 NB: you only can share hardware resources you actually have.
 
