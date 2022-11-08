@@ -15,6 +15,7 @@ The main purpose of VMs is to operate multiple operating systems at the same tim
 
 
 ![debian v centos](https://user-images.githubusercontent.com/93022275/200630857-5beb7b32-8a4c-41ec-99f1-bab126ff7f23.png)
+
 How a VM works?------------------------
 
 The HyperVisor(the software that creates and runs VMs) takes hardware resources from the host OS and creates virtual CPU, virtual RAM, virtual storage for the virtual machine.
