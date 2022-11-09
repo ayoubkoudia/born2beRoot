@@ -18,8 +18,8 @@ reboot
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 "sudo apt install openssh-server"		
 "sudo nano /etc/ssh/sshd_config"		
-		"#Port 22"  "Port 4242" 
-		"#PermitRootLogin prohibit-password"  "PermitRootLogin no" 
+		"#Port 22"---------->"Port 4242" 
+		"#PermitRootLogin prohibit-password"---------->"PermitRootLogin no" 
 reboot
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 "sudo service ssh status"				
@@ -35,13 +35,8 @@ poweroff
 	@-) PASS_MIN_DAYS	0 --> PASS_MIN_DAYS	2 
 	@-) PASS_WARN_AGE   7 
 "sudo apt install libpam-pwquality"	
-"sudo nano /etc/pam.d/common-password"	
-			minlen=10					
-			ucredit=-1 dcredit=-1		
-			maxrepeat=3					
-			reject_username				
-			difok=7						
-			enforce_for_root			
+"sudo nano /etc/pam.d/common-password"
+			
 password		requisite	pam_pwquality.so retry=3 minlen=10 ucredit=-1 dcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------
