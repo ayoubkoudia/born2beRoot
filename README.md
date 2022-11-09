@@ -114,7 +114,7 @@ https://www.tecmint.com/sudoers-configurations-for-setting-sudo-in-linux/
 https://debian-facile.org/doc:securite:passwd:libpam-pwquality
 
 https://manpages.debian.org/stretch/libpam-pwquality/pam_pwquality.8.en.html
-(passw)
+(passwd)
 
 https://www.youtube.com/watch?v=WMy3OzvBWc0
 
