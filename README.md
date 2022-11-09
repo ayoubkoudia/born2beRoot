@@ -115,6 +115,7 @@ https://debian-facile.org/doc:securite:passwd:libpam-pwquality
 
 https://manpages.debian.org/stretch/libpam-pwquality/pam_pwquality.8.en.html
 (passw)
+
 https://www.youtube.com/watch?v=WMy3OzvBWc0
 
 https://www.redhat.com/sysadmin/lvm-vs-partitioning
