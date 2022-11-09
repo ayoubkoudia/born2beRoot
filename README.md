@@ -91,3 +91,27 @@ Once we know a little more about how to build a server inside a Virtual Machine 
 
 Cron: Linux task manager that allows us to execute commands at a certain time. We can automate some tasks just by telling cron what command we want to run at a specific time. For example, if we want to restart our server every day at 4:00 am, instead of having to wake up at that time, cron will do it for us.
 Wall: command used by the root user to send a message to all users currently connected to the server. If the system administrator wants to alert about a major server change that could cause users to log out, the root user could alert them with wall.
+
+ressources
+
+https://linuxize.com/post/how-to-list-users-in-linux/
+
+https://phoenixnap.com/kb/how-to-enable-ssh-on-debian
+
+https://www.networkworld.com/article/2726217/how-to-enforce-password-complexity-on-linux.html
+
+https://www.redhat.com/sysadmin/lvm-vs-partitioning
+
+https://documentation.arcserve.com/Arcserve-UDP/Available/V6.5/ENU/Bookshelf_Files/HTML/Agent%20Online%20Help%20Linux/Content/AgentforLinuxUserGuide/udpl_config_sudo_debian.htm
+
+https://wiki.debian.org/sudo/
+
+https://manpages.debian.org/bullseye/sudo-ldap/sudoers.5.en.html
+(tag_spec)
+
+https://www.tecmint.com/sudoers-configurations-for-setting-sudo-in-linux/
+
+https://debian-facile.org/doc:securite:passwd:libpam-pwquality
+
+https://manpages.debian.org/stretch/libpam-pwquality/pam_pwquality.8.en.html
+(passw)
