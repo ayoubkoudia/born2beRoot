@@ -106,17 +106,22 @@ https://www.redhat.com/sysadmin/lvm-vs-partitioning
 https://documentation.arcserve.com/Arcserve-UDP/Available/V6.5/ENU/Bookshelf_Files/HTML/Agent%20Online%20Help%20Linux/Content/AgentforLinuxUserGuide/udpl_config_sudo_debian.htm
 
 https://wiki.debian.org/sudo/
-
 https://manpages.debian.org/bullseye/sudo-ldap/sudoers.5.en.html
 (tag_spec)
-
 https://www.tecmint.com/sudoers-configurations-for-setting-sudo-in-linux/
-
 https://debian-facile.org/doc:securite:passwd:libpam-pwquality
-
 https://manpages.debian.org/stretch/libpam-pwquality/pam_pwquality.8.en.html
 (passwd)
-
 https://www.youtube.com/watch?v=WMy3OzvBWc0
-
 https://www.redhat.com/sysadmin/lvm-vs-partitioning
+https://linuxize.com/post/how-to-list-groups-in-linux/  
+https://www.cloudpanel.io/tutorial/how-to-add-user-to-sudoers-in-debian/  
+https://webdock.io/en/docs/how-guides/system-maintenance/how-configure-crontab-linux (crontab)   
+(monitoring)https://www.cyberciti.biz/faq/crontab-every-10-min/   
+https://dev.to/kcdchennai/demystifying-linux-the-purpose-of-bin-usrbin-and-usrlocalbin-5a8e   
+https://serverfault.com/questions/287724/can-i-place-my-script-in-usr-bin  
+https://unix.stackexchange.com/questions/604818/where-how-should-i-store-scripts   
+https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/   
+https://crontab.guru/#*/5_*_*_*_*   
+https://www.networkworld.com/article/2715970/counting-processors-on-your-linux-box.html   
+https://www.2daygeek.com/linux-check-cpu-memory-swap-utilization-percentage/  
