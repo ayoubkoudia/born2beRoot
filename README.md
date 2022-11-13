@@ -122,6 +122,6 @@ https://dev.to/kcdchennai/demystifying-linux-the-purpose-of-bin-usrbin-and-usrlo
 https://serverfault.com/questions/287724/can-i-place-my-script-in-usr-bin  
 https://unix.stackexchange.com/questions/604818/where-how-should-i-store-scripts   
 https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/   
-https://crontab.guru/#*/5_*_*_*_*   
+https://crontab.guru/#*/10  
 https://www.networkworld.com/article/2715970/counting-processors-on-your-linux-box.html   
 https://www.2daygeek.com/linux-check-cpu-memory-swap-utilization-percentage/  
