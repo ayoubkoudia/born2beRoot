@@ -73,6 +73,12 @@ The Secure Shell Protocol (SSH) is a cryptographic network protocol for operatin
 
 ![SElinux vs AppArmor](https://user-images.githubusercontent.com/93022275/200630875-de343e4f-7272-49f4-b4bb-dbec8926cf72.png)
 
+## SELinux
+
+SELinux stands for Security Enhanced Linux, which is an access control system that is built into the Linux kernel. It is used to enforce the resource policies that define what level of access users, programs, and services have on a system.
+
+In its default enforcing mode, SELinux will deny and log any unauthorized attempts to access any resource. This approach, usually referred to as the principle of least privilege, means that explicit permission must be given to a user or program to access files, directories, sockets, and other services.
+
 ## AppArmor
 
 AppArmor ("Application Armor") is a Linux kernel security module that allows the system administrator to restrict programs' capabilities with per-program profiles. Profiles can allow capabilities like network access, raw socket access, and the permission to read, write, or execute files on matching paths. AppArmor supplements the traditional Unix discretionary access control (DAC) model by providing mandatory access control (MAC). It has been partially included in the mainline Linux kernel since version 2.6.36 and its development has been supported by Canonical since 2009.
