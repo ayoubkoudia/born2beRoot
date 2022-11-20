@@ -48,30 +48,6 @@ A hard disk can be divided into several partitions. Each partition functions as 
 
 ## Linux Directory Structure
 
-#### These are the common top-level directories associated with the root directory:
-
-$ /bin – binary or executable programs.
-$ /etc – system configuration files.
-$ /home – home directory. It is the default current directory.
-$ /opt – optional or third-party software.
-$ /tmp – temporary space, typically cleared on reboot.
-$ /usr – User related programs.
-$ /var – log files.
-
-#### Some other directories in the Linux system:
-
-$/boot- It contains all the boot-related information files and folders such as conf, grub, etc.
-$/dev – It is the location of the device files such as dev/sda1, dev/sda2, etc.
-$/lib – It contains kernel modules and a shared library.
-$/lost+found – It is used to find recovered bits of corrupted files.
-$/media – It contains subdirectories where removal media devices inserted.
-$/mnt – It contains temporary mount directories for mounting the file system.
-$/proc – It is a virtual and pseudo-file system to contains info about the running processes with a specific process ID or PID.
-$/run – It stores volatile runtime data.
-$/sbin – binary executable programs for an administrator.
-$/srv – It contains server-specific and server-related files.
-$/sys – It is a virtual filesystem for modern Linux distributions to store and allows modification of the devices connected to the system.
-
 ![200386755-b73099e8-e8d8-4b6c-aec1-b14815db0a98](https://user-images.githubusercontent.com/93022275/200652164-a6da2fb5-8f47-4d81-9bb7-84e983349e30.png)
 
 ## Package Management System:
