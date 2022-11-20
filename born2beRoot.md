@@ -101,7 +101,8 @@ Figure 1: LVM allows combining partitions and entire hard drives into Volume Gro
 Adding disk space to a host is fairly straightforward but, in my experience, is done relatively infrequently. The basic steps needed are listed below. You can either create an entirely new volume group or you can add the new space to an existing volume group and either expand an existing logical volume or create a new one.
 
 ## SSH
-![200386538-2f128d28-83f8-417c-ab78-924d2a721458](https://user-images.githubusercontent.com/93022275/200650631-5f9caa52-df1c-421b-a9de-cd5e54484e36.png)
+![ssh-linux](https://user-images.githubusercontent.com/93022275/202919033-6615fdca-2642-4b3d-88da-dd0375d34cee.png)
+
 
 The Secure Shell Protocol (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network.[1] Its most notable applications are remote login and command-line execution.
 
