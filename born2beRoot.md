@@ -100,6 +100,9 @@ Figure 1: LVM allows combining partitions and entire hard drives into Volume Gro
 
 Adding disk space to a host is fairly straightforward but, in my experience, is done relatively infrequently. The basic steps needed are listed below. You can either create an entirely new volume group or you can add the new space to an existing volume group and either expand an existing logical volume or create a new one.
 
+![Lvm svg](https://user-images.githubusercontent.com/93022275/202919355-5269e586-b7a0-4a51-abea-5d152202c3cd.png)
+
+
 ## SSH
 ![ssh-client-ssh-server-infographic-stackscale-1](https://user-images.githubusercontent.com/93022275/202919099-1a2b1469-ad26-42ce-9d82-ab97ba6610d0.jpg)
 
