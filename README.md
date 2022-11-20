@@ -50,13 +50,13 @@ A hard disk can be divided into several partitions. Each partition functions as 
 
 #### These are the common top-level directories associated with the root directory:
 
-$/bin – binary or executable programs.
-$/etc – system configuration files.
-$/home – home directory. It is the default current directory.
-$/opt – optional or third-party software.
-$/tmp – temporary space, typically cleared on reboot.
-$/usr – User related programs.
-$/var – log files.
+$ /bin – binary or executable programs.
+$ /etc – system configuration files.
+$ /home – home directory. It is the default current directory.
+$ /opt – optional or third-party software.
+$ /tmp – temporary space, typically cleared on reboot.
+$ /usr – User related programs.
+$ /var – log files.
 
 #### Some other directories in the Linux system:
 
