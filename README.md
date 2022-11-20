@@ -88,7 +88,7 @@ A hard disk can be divided into several partitions. Each partition functions as 
 
 A package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.
 
-# apt v aptitude
+# apt v aptitude :
 
 ![apt v aptitude](https://user-images.githubusercontent.com/93022275/200630852-388284ed-d041-45e0-ac96-3842c0d684d0.png)
 ## LVM Structure
@@ -110,6 +110,8 @@ Adding disk space to a host is fairly straightforward but, in my experience, is 
 
 
 The Secure Shell Protocol (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network.[1] Its most notable applications are remote login and command-line execution.
+
+# SElinux vs AppArmor
 
 ![SElinux vs AppArmor](https://user-images.githubusercontent.com/93022275/200630875-de343e4f-7272-49f4-b4bb-dbec8926cf72.png)
 
