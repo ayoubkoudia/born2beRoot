@@ -22,12 +22,19 @@ The main purpose of VMs is to operate multiple operating systems at the same tim
 #### Here are a few ways virtual machines are used:
 
 Building and deploying apps to the cloud.
+
 Trying out a new operating system (OS), including beta releases.
+
 Spinning up a new environment to make it simpler and quicker for developers to run dev-test scenarios.
+
 Backing up your existing OS.
+
 Accessing virus-infected data or running an old application by installing an older OS.
+
 Running software or apps on operating systems that they weren't originally intended for.
-What are the benefits of using VMs?
+
+#### What are the benefits of using VMs?
+
 While virtual machines run like individual computers with individual operating systems and applications, they have the advantage of remaining completely independent of one another and the physical host machine. A piece of software called a hypervisor, or virtual machine manager, lets you run different operating systems on different virtual machines at the same time. This makes it possible to run Linux VMs, for example, on a Windows OS, or to run an earlier version of Windows on more current Windows OS.
 
 And, because VMs are independent of each other, they're also extremely portable. You can move a VM on a hypervisor to another hypervisor on a completely different machine almost instantaneously.
@@ -35,9 +42,13 @@ And, because VMs are independent of each other, they're also extremely portable.
 #### Because of their flexibility and portability, virtual machines provide many benefits, such as:
 
 Cost savings—running multiple virtual environments from one piece of infrastructure means that you can drastically reduce your physical infrastructure footprint. This boosts your bottom line—decreasing the need to maintain nearly as many servers and saving on maintenance costs and electricity.
+
 Agility and speed—Spinning up a VM is relatively easy and quick and is much simpler than provisioning an entire new environment for your developers. Virtualization makes the process of running dev-test scenarios a lot quicker.
+
 Lowered downtime—VMs are so portable and easy to move from one hypervisor to another on a different machine—this means that they are a great solution for backup, in the event the host goes down unexpectedly.
+
 Scalability—VMs allow you to more easily scale your apps by adding more physical or virtual servers to distribute the workload across multiple VMs. As a result you can increase the availability and performance of your apps.
+
 Security benefits— Because virtual machines run in multiple operating systems, using a guest operating system on a VM allows you to run apps of questionable security and protects your host operating system. VMs also allow for better security forensics, and are often used to safely study computer viruses, isolating the viruses to avoid risking their host computer.
 
 ## How a VM works?
