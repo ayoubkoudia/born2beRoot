@@ -1,7 +1,7 @@
 # born2beRoot!
 Virtual Machines
 
-###### What is a VM?
+## What is a VM?
 
 A virtual machine (VM) is a virtual environment that works like a computer within a computer. It runs on an isolated partition of its host computer with its own CPU power, memory, operating system (such as Windows, Linux, macOS), and other resources. End users can run applications on VMs and use them as they normally would on their workstations.
 
@@ -17,7 +17,7 @@ The main purpose of VMs is to operate multiple operating systems at the same tim
 
 ![debian v centos](https://user-images.githubusercontent.com/93022275/200630857-5beb7b32-8a4c-41ec-99f1-bab126ff7f23.png)
 
-###### How a VM works?
+## How a VM works?
 
 The HyperVisor(the software that creates and runs VMs) takes hardware resources from the host OS and creates virtual CPU, virtual RAM, virtual storage for the virtual machine.
 
