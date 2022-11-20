@@ -1,7 +1,7 @@
 # born2beRoot!
 Virtual Machines
 
-What is a VM?---------------------------
+###### What is a VM?---------------------------
 
 A virtual machine (VM) is a virtual environment that works like a computer within a computer. It runs on an isolated partition of its host computer with its own CPU power, memory, operating system (such as Windows, Linux, macOS), and other resources. End users can run applications on VMs and use them as they normally would on their workstations.
 
