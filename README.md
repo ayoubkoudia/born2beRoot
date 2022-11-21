@@ -14,12 +14,13 @@ The main purpose of VMs is to operate multiple operating systems at the same tim
     No separate hardware needed, so you don't need to buy a new device.
     You don't engage the main OS.
 
+## debian v centos
 
 ![debian v centos](https://user-images.githubusercontent.com/93022275/200630857-5beb7b32-8a4c-41ec-99f1-bab126ff7f23.png)
 
 ## What are VMs used for?
 
-#### Here are a few ways virtual machines are used:
+## Here are a few ways virtual machines are used:
 
 Building and deploying apps to the cloud.
 
@@ -33,13 +34,13 @@ Accessing virus-infected data or running an old application by installing an old
 
 Running software or apps on operating systems that they weren't originally intended for.
 
-#### What are the benefits of using VMs?
+## What are the benefits of using VMs?
 
 While virtual machines run like individual computers with individual operating systems and applications, they have the advantage of remaining completely independent of one another and the physical host machine. A piece of software called a hypervisor, or virtual machine manager, lets you run different operating systems on different virtual machines at the same time. This makes it possible to run Linux VMs, for example, on a Windows OS, or to run an earlier version of Windows on more current Windows OS.
 
 And, because VMs are independent of each other, they're also extremely portable. You can move a VM on a hypervisor to another hypervisor on a completely different machine almost instantaneously.
 
-#### Because of their flexibility and portability, virtual machines provide many benefits, such as:
+## Because of their flexibility and portability, virtual machines provide many benefits, such as:
 
 Cost savings—running multiple virtual environments from one piece of infrastructure means that you can drastically reduce your physical infrastructure footprint. This boosts your bottom line—decreasing the need to maintain nearly as many servers and saving on maintenance costs and electricity.
 
