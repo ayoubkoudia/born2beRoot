@@ -158,14 +158,12 @@ https://documentation.arcserve.com/Arcserve-UDP/Available/V6.5/ENU/Bookshelf_Fil
 https://wiki.debian.org/sudo/
 
 https://manpages.debian.org/bullseye/sudo-ldap/sudoers.5.en.html
-(tag_spec)
 
 https://www.tecmint.com/sudoers-configurations-for-setting-sudo-in-linux/
 
 https://debian-facile.org/doc:securite:passwd:libpam-pwquality
 
 https://manpages.debian.org/stretch/libpam-pwquality/pam_pwquality.8.en.html
-(passwd)
 
 https://www.youtube.com/watch?v=WMy3OzvBWc0
 
