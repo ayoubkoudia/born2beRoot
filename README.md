@@ -192,3 +192,21 @@ https://crontab.guru/#*/10
 https://www.networkworld.com/article/2715970/counting-processors-on-your-linux-box.html   
 
 https://www.2daygeek.com/linux-check-cpu-memory-swap-utilization-percentage/  
+
+https://phoenixnap.com/kb/linux-commands-check-memory-usage  
+
+https://acloudguru.com/blog/engineering/conditions-in-bash-scripting-if-statements   
+
+https://sleeplessbeastie.eu/2019/08/07/how-to-count-tcp-connections/   
+
+https://www.cyberciti.biz/faq/linux-unix-bsd-sudo-sorry-you-must-haveattytorun/  
+
+https://www.ionos.com/help/server-cloud-infrastructure/getting-started/important-security-information-for-your-server/changing-the-default-ssh-port/  
+
+https://www.compuhoy.com/what-is-tty-and-pts-in-linux/   
+
+https://www.w3resource.com/linux-system-administration/groups.php   
+
+https://unix.stackexchange.com/questions/167935/details-about-sudo-commands-executed-by-all-user  
+
+https://forums.virtualbox.org/viewtopic.php?t=60957  
