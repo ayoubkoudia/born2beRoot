@@ -173,9 +173,9 @@ https://linuxize.com/post/how-to-list-groups-in-linux/
 
 https://www.cloudpanel.io/tutorial/how-to-add-user-to-sudoers-in-debian/  
 
-https://webdock.io/en/docs/how-guides/system-maintenance/how-configure-crontab-linux (crontab)   
+https://webdock.io/en/docs/how-guides/system-maintenance/how-configure-crontab-linux   
 
-(monitoring)https://www.cyberciti.biz/faq/crontab-every-10-min/   
+https://www.cyberciti.biz/faq/crontab-every-10-min/   
 
 https://dev.to/kcdchennai/demystifying-linux-the-purpose-of-bin-usrbin-and-usrlocalbin-5a8e 
 
