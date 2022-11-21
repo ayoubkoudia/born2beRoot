@@ -12,7 +12,6 @@ cpul=$(top -bn1 | grep '^%Cpu' | cut -c 9- | xargs | awk '{printf("%.1f%%"), $1 
 lb=$(who -b | awk '$1 == "system" {print $3 " " $4}')
 lvmt=$(lsblk | grep "lvm" | wc -l)
 lvmu=$(if [ $lvmt -eq 0 ]; then echo no; else echo yes; fi)
-#[$ sudo apt install net-tools]#
 ctcp=$(cat /proc/net/sockstat{,6} | awk '$1 == "TCP:" {print $3}')
 ulog=$(users | wc -w)
 ip=$(hostname -I)
