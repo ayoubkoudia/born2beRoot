@@ -111,6 +111,7 @@ Adding disk space to a host is fairly straightforward but, in my experience, is 
 
 
 The Secure Shell Protocol (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network.[1] Its most notable applications are remote login and command-line execution.
+https://phoenixnap.com/kb/how-does-ssh-work
 
 # SElinux vs AppArmor
 
