@@ -1,6 +1,6 @@
 ## Table of Contents
 [Virtual Machines](#VirtualMachines)
-    - [What is a Virtual Machine?](#VWhatisaVM?)
+    - [What is a Virtual Machine?](#VWhat-is-a-VM?)
     - [How do Virtual Machines work?](#Virtual-Machines-work)
     - [What is LVM?](#What-is-LVM?)
     - [What is AppArmor?](#What-is-AppArmor?)
