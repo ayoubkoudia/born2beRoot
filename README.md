@@ -1,6 +1,13 @@
 ## Table of Contents
 [Virtual Machines](#VirtualMachines)
-
+    - [What is a Virtual Machine?](#VWhatisaVM?)
+    - [How do Virtual Machines work?](#Virtual-Machines-work)
+    - [What is LVM?](#What-is-LVM?)
+    - [What is AppArmor?](#What-is-AppArmor?)
+    - [What is the difference between Apt and Aptitute?](#Apt-and-Aptitute)
+    - [How to use SSH?](#How-to-use-SSH?)
+    - [How to implement UFW with SSH?](#UFW-with-SSH)
+    - [What is cron and what is wall?](#what-is-cron)
 # Virtual Machines
 
 ## What is a VM?
