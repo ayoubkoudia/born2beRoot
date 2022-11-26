@@ -1,5 +1,5 @@
 ## Table of Contents
-[Virtual Machines](#Virtual Machines)
+[Virtual Machines](#VirtualMachines)
 
 # Virtual Machines
 
