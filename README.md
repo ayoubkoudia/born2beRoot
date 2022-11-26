@@ -1,7 +1,7 @@
 ## Table of Contents
 [Virtual Machines](#VirtualMachines)
     - [What is a Virtual Machine?](#VWhat-is-a-VM?)
-    - [How do Virtual Machines work?](##Why-VM's)
+    - [How do Virtual Machines work?](##WhyVM's)
 
 # Virtual Machines
 
