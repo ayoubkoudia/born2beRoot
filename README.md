@@ -2,7 +2,7 @@
 [Virtual Machines](#VirtualMachines)
     - [What is a Virtual Machine?](#VWhat-is-a-VM?)
     - [Why VM's](##Why-VM's)
-    - [debian vs centos](##debian-v-centos)
+    - [debian vs centos](##debianvcentos)
     - [What is AppArmor?](#What-is-AppArmor?)
     - [What is the difference between Apt and Aptitute?](#Apt-and-Aptitute)
     - [How to use SSH?](#How-to-use-SSH?)
