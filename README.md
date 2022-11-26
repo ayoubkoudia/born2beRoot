@@ -1,13 +1,7 @@
 ## Table of Contents
-1. [Virtual Machines](# Virtual Machines)
+1. [Virtual Machines](#Virtual Machines)
     - [What is a Virtual Machine?](##What is a VM?)
     - [Why VM's](##Why VM's)
-    - [ debian v centos](##debian v centos)
-    - [What is AppArmor?](#What-is-AppArmor?)
-    - [What is the difference between Apt and Aptitute?](#Apt-and-Aptitute)
-    - [How to use SSH?](#How-to-use-SSH?)
-    - [How to implement UFW with SSH?](#UFW-with-SSH)
-    - [What is cron and what is wall?](#what-is-cron)
 
 # Virtual Machines
 
