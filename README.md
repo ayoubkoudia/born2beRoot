@@ -85,6 +85,9 @@ A hard disk can be divided into several partitions. Each partition functions as 
 
 ![200386755-b73099e8-e8d8-4b6c-aec1-b14815db0a98](https://user-images.githubusercontent.com/93022275/200652164-a6da2fb5-8f47-4d81-9bb7-84e983349e30.png)
 
+
+https://eng.libretexts.org/Bookshelves/Computer_Science/Operating_Systems/Linux_-_The_Penguin_Marches_On_(McClanahan)/04%3A_Managing_Linux_Storage/5.12%3A_Linux_Directory_Structure/5.12.01%3A_Linux_Directory_Structure_-_Hierarchy
+
 ## Package Management System:
 
 A package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.
