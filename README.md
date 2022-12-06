@@ -74,8 +74,6 @@ While apt-get handles all the package installation, up-gradation, system-upgrada
 
 ![apt v aptitude](https://user-images.githubusercontent.com/93022275/200630852-388284ed-d041-45e0-ac96-3842c0d684d0.png)
 
-Now that we have a good understanding of what APT and Aptitude has to offer, it is now time to learn about their difference. Let’s get started.
-
 The first difference you will notice is that APT is a lower-level package manager, and Aptitude is a high-level package manager. This means that APT can be used in other higher-level package managers.
 
 Another big difference is the functionality offered by both of the tools. Aptitude offers better functionality compared to apt-get. In fact, it contains the functionalities of apt-get, apt-mark, and apt-cache.
