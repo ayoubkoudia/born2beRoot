@@ -25,6 +25,6 @@ wall "	#Architecture : $(uname -a)
 	#Last boot : $(who -b | awk '{print $3,$4}')
 	#LVM use : $lvm_usage
 	#Connexions TCP : $(netstat -at | grep ESTABLISHED | grep 4242 | wc -l)
-	#User log : $(who | awk "{print $1}"| uniq | wc -l)
+	#User log : $(who | awk '{print $1}'| uniq | wc -l)
 	#Network : IP $(hostname -I)($(ip a | grep ether | awk '{print $2}'))
 	#Sudo : $((sudo_line / 2)) cmd"
